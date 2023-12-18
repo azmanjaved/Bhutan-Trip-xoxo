@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;   
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    
+    margin-top: 1px;
+    padding: 15px;
+    margin-left: 40px;
+}
+.img1{
+    width: 100%;
+    height: auto;
+}
+.main-heading{
+    color: yellowgreen;
+    font-size: 55px;
+}
+.sec-heading{
+    color: white;
+    font-size: 25px;
+}
+
+.banner-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.form-full{
+    border: 0.5px solid pink;
+    border-radius: 50px;
+    position: absolute;
+    left: 1055px;
+    top: 720px;
+    width: 400px; 
+    background-color: lightblue; 
+}
+.form-heading{
+    color: darkblue;
+    margin: revert;
+    text-align: center;
+    font-size: larger;
+}
+.form-main{
+    text-align: left;
+}
+div#form-group {
+    margin: 25px;
+    font-size: 20px;
+}
+:placeholder-shown{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: pink;
+}
+.sub-button{
+    font-size: 25px;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+}
+#Travelers{
+    position: relative;
+    margin-left: -25px;
+}
+.adjust-travel{
+    position: relative;
+    margin-left: -25px;
+}
+.contact-us{
+    position: absolute;
+    margin-top: 890px;
+    right: 140px;
+}
+.main-text{
+    color: blue;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.para-text{
+    color: black;
+    font-size: 23px;
+}
+.pack-heading{
+    position: absolute;
+    margin-top: 950px;
+    left: 60px;
+    font-size: 50px;
+    color: blue;
+    font-family:  monospace;
+}
+.packages-area{
+    margin-top: 70px;
+    position: relative;
+    border: 2px solid black;
+}
+.pack-box1{
+    border: 20px solid blue;
+    background-color: blue;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 1050px;
+    left: 60px;
+}
+.pack-box1-text{
+    text-align: center;
+    color: white;
+    font-size: 30px; 
+    margin-top: 15px;  
+}
+.pack-btn{
+    text-align: center;
+    background-color: white;
+    margin-top: 60px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 15px;
+    width: fit-content ;
+    margin-left: 120px;
+    font-weight: lighter;  
+}
+.st-from{
+    color: white;
+    display: table-caption;
+    margin-left: 41px;
+    position: static;
+    margin-top: 33px;
+    font-size: x-large;
+}
+.price{
+    color: white;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+span.price {
+    position: relative;
+    bottom: 40px;
+    font-size: xxx-large;
+    left: -30px;
+    bottom: 54px;
+}
+.nights {
+    border: 2px solid black;
+    text-align: center;
+    background-color: yellowgreen;
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    border-radius: inherit;
+    width: -webkit-fill-available;
+    display: flow;
+}
+.pack-box2{
+    border: 20px solid blue;
+    background-color: blue;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 1050px;
+    left: 560px;
+}
+.pack-box2-text{
+    text-align: center;
+    color: white;
+    font-size: 30px; 
+    margin-top: 15px;  
+}
+.pack-box3{
+    border: 20px solid blue;
+    background-color: blue;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 1050px;
+    left: 1062px;
+}
+.pack-box3-text{
+    text-align: center;
+    color: white;
+    font-size: 30px; 
+    margin-top: 15px;  
+}
+.book-bhutan{
+    position: absolute;
+}
+.img-2{
+    width: 100%;
+}
+.banner-2{
+    margin-top: 1650px;
+}
+.bhu-exp {
+    left: 141px;
+    font-size: xxx-large;
+    bottom: 181px;
+    position: absolute; 
+}
+.btn-book{
+    position: absolute;
+    bottom: 110px;
+    left: 140px;
+    font-size: 30px;
+    background-color: blue;
+    color: orange;
+    border-radius: 10px;
+    cursor: context-menu;
+    padding: 10px;
+    border-radius: 30px;
+    border-color: blue;
+}
+.trav-requi{
+    margin-top: 2100px;
+    background-color: blue;
+    color: white;
+    border-radius: 137px;
+    padding: 50px;
+}
+.trav-cont{
+    position: static;
+    font-size: 19px;
+    margin-left: 84px;
+}
+.bhutan-offer{
+    margin-top: 100px;
+    margin-left: 60px;
+    font-size: 40px;
+    color: blue;
+}
+.unl-bhu{
+    color: darkblue;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.offer-btn{
+    background-color: blue;
+    color: orange;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    cursor: context-menu;
+    margin-top: 29px;
+    border-radius: 30px;
+    border-color: blue;
+}
+.offer-images{
+    margin-top: 120px;
+    position: relative;
+}
+.images-boxes {
+    object-fit: cover;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.book-whatsapp{
+    text-align: center;
+    font-size: xxx-large;
+    color: black;
+    margin-top: 50px;
+}
+.footer-text{
+    text-align: center;
+    font-size: xx-large;
+    background-color: blue;
+    position: relative;
+    margin-top: 30px;
+}
+.text-cont{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (min-width: 100px){
+    .img1{
+        width: 100%;
+    }
+    
+}
